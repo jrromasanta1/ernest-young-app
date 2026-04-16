@@ -7,5 +7,20 @@ https://github.com/jrromasanta1/ernest-young-app/blob/b95722773f1114cb6c14500555
 **if you want to test with AWS S3bucket, update configurations at application.properties**
 https://github.com/jrromasanta1/ernest-young-app/blob/main/src/main/resources/application.properties
 
+POST http://localhost:8080/process
+Body
+[
+  "file1",
+  "file2",
+  "file3",
+  "file4",
+  "file5",
+  "file6",
+  "file7",
+  "file8"
+]
+
+
+
 Thank you,
 **Jose Romasanta**
